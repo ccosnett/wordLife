@@ -2,7 +2,7 @@
 Clear[statePlot, lifePlot, asdfasdf, satSolverOutput, x, S, updateLife, R1, R2, R3, R4, S, bool, antiBool, or, and, join, CNF, CNFToclausalForm2, clausalForm2ToCNF,array3Processor,formula,varlist];
 Get[NotebookDirectory[]<>"clause_sets_R1_R2_R3_and_R4_.m"];
 
-(*helper functions*)
+(*HELPER FUNCTIONS*)
 
 
 updateLife[stateXt_] := Module[
@@ -41,6 +41,8 @@ array3Processor[array3_] := And @@ (Or @@ # & /@ Flatten[array3 , 3]);
 
 (*MAIN PROGRAM*)
 
+(*ARRAY SIZE DETERMINATION AND BOUNDARY CONDITIONS*)
+
 n=endGeneration;
 {i, j} = Dimensions[endState];
 
@@ -51,6 +53,8 @@ x[0, _,  g_/;(g!=n)] = False;
 x[_, j+1,  g_/;(g!=n)] = False;
 x[i+1, _,  g_/;(g!=n)] = False;
 
+
+(*PRINTING DESIRED END STATE*)
 MessageDialog[Evaluate[Array[x[##,n]&, {i, j}]]//bool//statePlot];
 
 
