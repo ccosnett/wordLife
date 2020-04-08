@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     15735,        403]
-NotebookOptionsPosition[     15155,        384]
-NotebookOutlinePosition[     15500,        399]
-CellTagsIndexPosition[     15457,        396]
+NotebookDataLength[     14958,        382]
+NotebookOptionsPosition[     14529,        366]
+NotebookOutlinePosition[     14874,        381]
+CellTagsIndexPosition[     14831,        378]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -362,28 +362,10 @@ Cell[BoxData[
    3.795361533986079*^9, 3.795361603141386*^9},
  Background->GrayLevel[0.85],
  CellLabel->"Out[3]=",ExpressionUUID->"5f9fff07-a8a2-4a3f-a70b-66c6f35ab904"]
-}, Open  ]],
-
-Cell[TextData[StyleBox["Use a SAT Solver to find initial states in Conway\
-\[CloseCurlyQuote]s Game of Life that evolve into words\n\n",
- StripOnInput->False,
- LineColor->GrayLevel[0],
- FrontFaceColor->GrayLevel[0],
- BackFaceColor->GrayLevel[0],
- GraphicsColor->GrayLevel[0],
- FontWeight->Normal,
- FontColor->GrayLevel[0]]], "Text",
- Evaluatable->True,
- CellGroupingRules->"InputGroupin",
- CellEvaluationFunction->cel`gTalker,
- ShowCellLabel->"False",
- CellFrameLabels->{{None, ""}, {None, None}},
- CellChangeTimes->{{3.795361824251502*^9, 
-  3.795361824690371*^9}},ExpressionUUID->"96b14a9a-8d42-4519-8265-\
-1a4b8db8e5fa"]
+}, Open  ]]
 },
 WindowSize->{1686, 1387},
-WindowMargins->{{Automatic, 1}, {-28, Automatic}},
+WindowMargins->{{Automatic, 0}, {-28, Automatic}},
 FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
 StyleDefinitions->"DefaultModified2.nb"
 ]
@@ -400,11 +382,8 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 1202, 32, 431, "Input",ExpressionUUID->"c96f6d85-2f76-4125-9361-75f95e198ee7"],
-Cell[1785, 56, 12728, 307, 237, "Output",ExpressionUUID->"5f9fff07-a8a2-4a3f-a70b-66c6f35ab904"]
-}, Open  ]],
-Cell[14528, 366, 623, 16, 159, "Text",ExpressionUUID->"96b14a9a-8d42-4519-8265-1a4b8db8e5fa",
- Evaluatable->True,
- CellGroupingRules->"InputGroupin"]
+Cell[1785, 56, 12728, 307, 266, "Output",ExpressionUUID->"5f9fff07-a8a2-4a3f-a70b-66c6f35ab904"]
+}, Open  ]]
 }
 ]
 *)
