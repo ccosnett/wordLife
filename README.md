@@ -13,3 +13,4 @@ It is as simple as:
 ![image](https://user-images.githubusercontent.com/15061801/116878689-9ccf7900-ac17-11eb-9163-39a00f44d53f.png)
 
 
+[3d.pdf](https://github.com/ccosnett/wordLife/files/6421019/3d.pdf)
