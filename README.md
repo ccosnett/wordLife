@@ -14,3 +14,6 @@ It is as simple as:
 
 
 ![3d.pdf](https://github.com/ccosnett/wordLife/files/6421019/3d.pdf)
+
+
+![2d.pdf](https://github.com/ccosnett/wordLife/files/6421048/2d.pdf)
